@@ -7,7 +7,7 @@ def main():
     pretrained_model_name = "Salesforce/blip-image-captioning-base"
     batch_size = 4
     learning_rate = 5e-5    # Низкое значение для аккуратной корректировки весов
-    num_epochs = 4000
+    num_epochs = 4
     save_path = 'fine-tuned-blip'
     
     model = ImageCaptioningModel(pretrained_model_name)
